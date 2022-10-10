@@ -24,8 +24,11 @@ SHOW_DIALOG_str = str(SHOW_DIALOG_bool).lower()
 def you_got_me():
     #target = os.environ.get('TARGET', 'World')
     #return 'Hello {}!\n'.format(target)
-    return 'Hello world, it\'s Lyndsey!'
-    '''boo'''
+    return '''
+    Hello world, it\'s Lyndsey!
+    Boo
+    This is a page
+    '''
 
 #if we receive a message POST from slack
 
